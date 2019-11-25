@@ -264,7 +264,7 @@
 	deSpawnRadius = 50
 
 
-	maxPlayerSummons = 2
+	maxPlayerSummons = 4
 	teleportAllSummons = false
 	teleportPlayerSummons = false
 
