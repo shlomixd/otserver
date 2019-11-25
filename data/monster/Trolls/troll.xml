@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Troll" nameDescription="a troll" race="blood" experience="140000000" speed="400" manacost="290">
+	<health now="1200000" max="1200000"/>
+	<look type="15" corpse="5960"/>
+	<targetchange interval="2000" chance="0"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="1"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="15"/>
+	</flags>
+	<script>
+		<event name="summonDeath"/>
+	</script>
+	<attacks>
+		<attack name="melee" interval="1500" skill="400" attack="300"/>
+	</attacks>
+	<defenses armor="10" defense="15"/>
+	<voices interval="5000" chance="10">
+		<voice sentence="Grrrr"/>
+		<voice sentence="Groar"/>
+		<voice sentence="Gruntz!"/>
+		<voice sentence="Hmmm, bugs."/>
+		<voice sentence="Hmmm, dogs."/>
+	</voices>
+	<loot>
+		<item id="2160" countmax="100" chance="26750"/><!-- CC -->
+		<item id="2160" countmax="100" chance="26750"/><!-- CC -->
+		<item id="2120" chance="8750"/><!-- rope -->
+	</loot>
+</monster>

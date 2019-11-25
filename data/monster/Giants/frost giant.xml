@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Frost Giant" nameDescription="a frost giant" race="blood" experience="150000000" speed="500" manacost="490">
+	<health now="3000000" max="3000000"/>
+	<look type="62" corpse="6003"/>
+	<targetchange interval="2000" chance="0"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="1"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<script>
+		<event name="summonDeath"/>
+	</script>
+	<attacks>
+		<attack name="melee" interval="2000" skill="600" attack="500"/>
+		<attack name="physical" interval="1000" chance="5" range="7" min="-15" max="-35">
+			<attribute key="shootEffect" value="arrow"/>
+		</attack>
+	</attacks>
+	<defenses armor="6" defense="12"/>
+	<voices interval="5000" chance="10">
+		<voice sentence="Im The Guard OF THIS oT!"/>
+		<voice sentence="Bahaha aka!"/>
+		<voice sentence="Hail PradiseOT."/>
+		<voice sentence="HAIL ME!."/>
+		<voice sentence="Death to ALL!"/>
+	</voices>
+	<loot>
+		<item id="2160" countmax="1" chance="25000"/><!-- CC -->
+	</loot>
+</monster>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Ajudante Do Server" script="data/npc/scripts/ajudant.lua" walkinterval="1000" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="75" head="0" body="0" legs="50" feet="0" addons="2"/>
+    <parameters>
+        <parameter key="message_greet" value="Ola, |PLAYERNAME|! eu sou o ajudante do servidorm falo em portugues para facilitar a {ajuda} para os iniciantes, para mais informacoes fale {ajuda}."/>
+        <parameter key="message_farewell" value="Good bye, |PLAYERNAME|."/>
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="ajuda;items;huntings;demonios;" />
+        <parameter key="keyword_reply1" value="Eu posso lhe conceder {items} iniciais para seu comeco em jogo, e para saber onde tem hunts basta dizer {huntings}..." />
+        <parameter key="keyword_reply2" value="Para adquirir os items basta falar {first money}." />
+        <parameter key="keyword_reply3" value="Na saida sul e oeste da cidade tem {demonios} da natureza nas redondezas os chamados Spirit Of Forest, abaixo do tempo contem teleports para outras areas extencas de hunts tambem, e ao leste da cidade tem a capita Ruby que o leva para mais uma boa area de hunt chamada Maliv. " />
+        <parameter key="keyword_reply4" value="Neste mundo a muitos tipos de demonios que aprendemos desde level baixo a temer como o poderoso Orshabaal, o lord dos lords dragoes Demodras e entre outras criaturas, mas a pouco tempo veio duas novas racas dominadoras que andam botando medo nos cidadaos chamados Frozen Demonic que ficam nas profundezas de Senja e os Spirits Of Forest que rondam a cidade de Drunkland. " />
+
+        <parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="" />
+        <parameter key="shop_sellable" value="" />
+    </parameters>
+</npc>
+
+
+
+
+

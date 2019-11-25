@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Paradise Master" nameDescription="a paradise master" race="undead" experience="1700000000" speed="1000" manacost="0">
+	<health now="100000000" max="100000000"/>
+	<look type="309" corpse="6331"/>
+	<targetchange interval="2000" chance="10"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag staticattack="50"/>
+		<flag lightlevel="0"/>
+		<flag lightcolor="0"/>
+		<flag targetdistance="1"/>
+		<flag runonhealth="2000"/>
+	</flags>
+	<script>
+		<event name="summonDeath"/>
+	</script>
+	<attacks>
+		<attack name="melee" interval="1000" min="-500000" max="-600000"/>
+		<attack name="physical" interval="3000" chance="18" range="5" radius="5" target="1" min="-300000" max="-800000">
+			<attribute key="areaEffect" value="groundshaker"/>
+		</attack>
+	</attacks>
+	<defenses armor="64" defense="72">
+		<defense name="healing" interval="2000000" chance="25000" min="1500000" max="2500000">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element deathPercent="-10"/>
+		<element earthPercent="-5"/>
+	</elements>
+	<immunities>
+		<immunity energy="0"/>
+		<immunity fire="0"/>
+		<immunity ice="0"/>
+		<immunity lifedrain="1"/>
+		<immunity paralyze="1"/>
+		<immunity outfit="1"/>
+		<immunity drunk="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="2000" chance="10">
+		<voice sentence="Im the Master of this OT!"/>
+		<voice sentence="Dont touch my armor!!"/>
+		<voice sentence="Scream for me!"/>
+	</voices>
+	<loot>
+     <item id="2306" countmax="1" chance="5000" /><!-- Evil SD -->
+</loot>
+
+</monster>

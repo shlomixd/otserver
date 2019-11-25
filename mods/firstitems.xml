@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mod name="First Items" version="1.0" author="The Forgotten Server" contact="otland.net" enabled="yes">
+	<config name="firstitems_config"><![CDATA[
+		config = {
+			storage = 30001,
+			items = {2160}
+		}
+	]]></config>
+	<event type="login" name="FirstItems" event="script"><![CDATA[
+		domodlib('firstitems_config')
+
+		function onLogin(cid)
+			if(getPlayerStorageValue(cid, config.storage) > 0) then
+				return true
+			end
+
+			for _, id in ipairs(config.items) do
+				doPlayerAddItem(cid, id, 1)
+			end
+
+			if(getPlayerSex(cid) == PLAYERSEX_FEMALE) then
+				doPlayerAddItem(cid, 2460, 1)
+				doPlayerAddItem(cid, 2465, 1)
+				doPlayerAddItem(cid, 2478, 1)
+				doPlayerAddItem(cid, 2531, 1)
+			else
+				doPlayerAddItem(cid, 2460, 1)
+				doPlayerAddItem(cid, 2465, 1)
+				doPlayerAddItem(cid, 2478, 1)
+				doPlayerAddItem(cid, 2531, 1)
+			end
+
+			doAddContainerItem(doPlayerAddItem(cid, 1988, 1), 2160, 1)
+			doPlayerAddItem(cid, 2543, 1)
+			doPlayerAddItem(cid, 2268, 1)
+			doPlayerAddItem(cid, 2455, 1)
+			doPlayerAddItem(cid, 2273, 1)
+			doPlayerAddItem(cid, 2276, 1)
+			doPlayerAddItem(cid, 2186, 1)
+			doPlayerAddItem(cid, 2191, 1)
+			doPlayerAddItem(cid, 2544, 1)
+			doPlayerAddItem(cid, 2456, 1)
+			doPlayerAddItem(cid, 2376, 1)
+			doPlayerAddItem(cid, 2386, 1)
+			setPlayerStorageValue(cid, config.storage, 1)
+			return true
+		end
+	]]></event>
+</mod>

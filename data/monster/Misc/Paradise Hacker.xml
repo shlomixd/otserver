@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Paradise Hacker" nameDescription="a paradise hacker" race="blood" experience="10000000000" speed="215" manacost="220">
+	<health now="950000" max="950000"/>
+       <look type="8" corpse="5980"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="429"/>
+	</flags>
+	<attacks>
+
+		<attack name="melee" interval="700" skill="700" attack="600"/>
+		<attack name="manadrain" interval="1000" chance="13" range="1" min="-0" max="-45"/>
+	</attacks>
+	<defenses armor="6" defense="7"/>
+	<loot>
+		<item id="2160" countmax="10" chance="25000"/><!-- CC -->
+		<item id="2684" chance="12500"/><!-- carrot -->
+	</loot>
+</monster>

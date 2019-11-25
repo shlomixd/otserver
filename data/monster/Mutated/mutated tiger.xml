@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Mutated Tiger" nameDescription="a mutated tiger" race="blood" experience="90000000" speed="245" manacost="0">
+	<health now="550000" max="550000"/>
+	<look type="318" corpse="9913"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="100"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="450" attack="560"/>
+		<attack name="physical" interval="3000" chance="20" length="8" spread="3" min="-30" max="-130">
+			<attribute key="areaEffect" value="redspark"/>
+		</attack>
+	</attacks>
+	<defenses armor="30" defense="30">
+		<defense name="invisible" interval="1000" chance="25" duration="9000">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+		<defense name="healing" interval="1000" chance="25" min="150" max="300">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<voices interval="2500" chance="10">
+		<voice sentence="GRAAARRRRRR"/>
+		<voice sentence="CHHHHHHHHHHH"/>
+	</voices>
+	<loot>
+		<item id="2148" countmax="96" chance="20000"/><!-- gold coin -->
+		<item id="2671" countmax="2" chance="22500"/><!-- ham -->
+	</loot>
+</monster>

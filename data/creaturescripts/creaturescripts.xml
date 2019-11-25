@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<creaturescripts>
+
+       <event type="advance" name="Advance" event="script" value="advance.lua"/>
+	<event type="login" name="PlayerLogin" event="script" value="login.lua"/>
+
+	<event type="joinchannel" name="GuildMotd" event="script" value="guildmotd.lua"/>
+	<event type="receivemail" name="Mail" event="script" value="mail.lua"/>
+	<event type="reportbug" name="SaveReportBug" script="reportbug.lua"/>
+	<event type="advance" name="AdvanceSave" event="script" value="advancesave.lua"/>
+
+	<event type="think" name="Idle" event="script" value="idle.lua"/>
+	<event type="think" name="SkullCheck" event="script" value="skullcheck.lua"/>
+
+       <event type="advance" name="SpellUp" event="script" value="spellup.lua"/>
+	
+	<event type="death" name="PlayerDeath" script="playerdeath.lua"/>
+
+	<event type="preparedeath" name="forever amulet" event="script" value="foreveramulet.lua"/>	
+	<event type="preparedeath" name="skull amulet" event="script" value="skullamulet.lua"/>
+	<event type="preparedeath" name="charge amulet" event="script" value="chargeamulet.lua"/>
+
+
+       <event type="preparedeath" name="onPrepareDeath" event="script" value="preparedeath.lua"/>  
+       <event type="death" name="summonDeath" event="script" value="death.lua"/>
+	   	<event type="login" name="maxlvl" event="script" value="maxlvl.lua"/>
+       <event type="advance" name="InfoAdv" event="script" value="infoadv.lua"/>
+       <event type="kill" name="InfoDeath" event="script" value="infodeath.lua"/>
+
+       <event type="preparedeath" name="crash" event="script" value="crash.lua"/>
+
+        <event type="look" name="rebirth" event="script" value="rebirth.lua"/>
+	<event type="preparedeath" name="PWNED" event="script" value="owned.lua"/>
+
+
+</creaturescripts>

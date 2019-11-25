@@ -1,0 +1,163 @@
+[ CHANGELOG
+        Project Name
+                The Forgotten Server
+
+        Version
+                0.3.6
+
+        Codenamed
+                Real Server 3.3
+
+        License
+                GNU GPLv3
+
+        Forum
+                http://otland.net/
+]
+
+[ File changes:
+        D = Deleted,
+        M = Modified,
+        A = Added.
+
+        [ 0.3.1
+                [ A...
+                        data/
+                                actions/
+                                        scripts/
+                                                liquids/
+                                                        *.lua
+                                                                * Added liquids files
+                                                                * Added potions of 8.2 protocol
+                                                tools/
+                                                        blessed_wooden_stake.lua
+                                                        obsidian_knife.lua
+                                                                * Added
+
+                                                other/
+                                                        stuffeddragon.lua
+                                                                * Added as example of position param for doCreatureSay function
+                                                        highscores.lua
+                                                                * Added due to hardcoded highscores function deprecation
+
+                                creaturescripts/
+                                        scripts/
+                                                firstitems.lua
+                                                        * Moved first items script to creature events instead of move events
+
+                                globalevents/
+                                        globalevents.xml
+                                        lib/
+                                        scripts/
+                                                * Introduced global events
+                                        scripts/
+                                                *.lua
+                                                        * Added basic scripts
+                                lib/
+                                        data.lua
+                                        constant.lua
+                                        function.lua
+                                        compat.lua
+                                        database.lua
+                                        exhaustion.lua
+                                                * Added files created from global.lua (organized)
+
+                                logs/
+                                        server/
+                                                * Created directory for GUI logs
+
+                                monsters/
+                                        */*.xml
+                                                * Added most of 8.1 protocol monsters
+                                                * Added missing monsters and bosses
+                                                * Added few monsters of procotol 8.2
+                                                * Added alot of protocol 8.3 monsters
+                                                * Several protocol 8.4 monsters
+
+                                movements/
+                                        scripts/
+                                                swimming/
+                                                        *.lua
+                                                                * Added swimming system
+
+                                npc/
+                                        *.xml
+                                        lib/
+                                                *.xml
+                                                        * Lightweight npc examples
+                                        scripts/
+                                                *.lua
+                                                        * Added more NPC's examples
+
+                                spells/
+                                        scripts/
+                                                support/
+                                                        *.lua
+                                                                * Added 8.4 profession (no party buffs yet) spells
+
+                                talkactions/
+                                        scripts/
+                                                shutdown.lua
+                                                pvp.lua
+                                                        * Talkaction based on new LUA function
+                                                position.lua
+                                                money.lua
+                                                        * Talkaction deprecated from commands
+                                                online.lua
+                                                clean.lua
+                                                broadcast.lua
+                                                        * Talkaction based on new LUA function, deprecated from commands
+                                                broadcastclass.lua
+                                                mode.lua
+                                                multicheck.lua
+                                                masskick.lua
+                                                        * Added (...)
+                                                buypremium.lua
+                                                        * File name change
+                                                *.lua
+                                                        * Deprecated commands
+
+                                weapons/
+                                        scripts/
+                                                burst_arrow.lua
+                                                        * Moved explosive_arrow.lua
+
+                                XML/
+                                        servers.xml
+                                                * GameServers class usage example
+                ]
+                [ M...
+                        data/
+                                actions/
+                                        actions.xml
+                                                * Added obsidian knife and blessed wooden stake
+                                                * Added heavy machete
+                                                * Added stuffed dragon
+                                                * Added furnace
+                                                * Added protocol 8.4 lamps
+                                                * Kits
+                                                * Fixes
+                                                * Fixed all holes, ladder, rope spots, etc.
+                                                * More missing items
+                                        scripts/
+                                                tools/
+                                                        fishing.lua
+                                                                * Fixed worms usage
+                                                        rope.lua
+                                                                * Protocol 8.2 rope spots
+                                                                * Fixed all holes, ladder, rope spots, etc.
+                                                        blessed_wooden_stake.lua
+                                                        obsidian_knife.lua
+                                                                * Optimalized and fixed script
+                                                        shovel.lua
+                                                                * Fixes
+                                                                * Fixed all holes, ladder, rope spots, etc.
+                                                quests/
+                                                        system.lua
+                                                                * Fixed reported bugs
+                                                other/
+                                                        changegold.lua
+                                                                * Textcolor fix
+                                                        constructionkits.lua
+                                                                * Fixed construction kits
+     &

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Amazon" nameDescription="a amazon" race="blood" experience="7000" speed="210" manacost="390">
+	<health now="110" max="110"/>
+	<look type="137" head="113" body="120" legs="114" feet="132" corpse="6081"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="4"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="10"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="2" attack="0"/>
+		<attack name="physical" interval="1000" chance="10" range="7" min="0" max="0">
+			<attribute key="shootEffect" value="throwingknife"/>
+		</attack>
+	</attacks>
+	<defenses armor="11" defense="11"/>
+	<elements>
+		<element physicalPercent="-8"/>
+		<element deathPercent="-7"/>
+	</elements>
+	<voices interval="5000" chance="10">
+		<voice sentence="Yeeee ha!"/>
+		<voice sentence="Your head shall be mine!"/>
+	</voices>
+	<loot>
+		<item id="1987" chance="100000"><!-- bag -->
+			<inside>
+		<item id="2526" chance="7000"/><!-- studded shield -->
+		<item id="2147" chance="200"/><!-- small ruby -->	
+			</inside>
+		</item>
+	</loot>
+</monster>

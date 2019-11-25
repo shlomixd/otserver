@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Dean" script="dean.lua" walkinterval="0" floorchange="0">
+	<health now="150" max="150"/>
+	<look type="289" head="114" body="119" legs="114" feet="114" addons="3" corpse="2212"/>
+    <parameters>
+        <parameter key="module_travel" value="1"/>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. If you don't know where to flow, say {travel} or i selling weapons, say {trade}."/>
+        <parameter key="travel_destinations" value="drunkland,1032,1027,7,0;demons valley,1119,1149,7,0;"/>   
+</parameters>
+</npc>

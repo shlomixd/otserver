@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<houses>
+  <house name="Temple House #7" houseid="7" entryx="996" entryy="928" entryz="7" rent="0" townid="1" size="47"/>
+  <house name="Depo House #1 " houseid="14" entryx="1021" entryy="918" entryz="7" rent="0" townid="1" size="63"/>
+  <house name="Depo House #2" houseid="15" entryx="1018" entryy="926" entryz="7" rent="0" townid="1" size="96"/>
+  <house name="Depo House #3" houseid="16" entryx="1028" entryy="926" entryz="7" rent="0" townid="1" size="78"/>
+  <house name="Depo House #4" houseid="17" entryx="1037" entryy="920" entryz="7" rent="0" townid="1" size="78"/>
+  <house name="Depo House #5" houseid="18" entryx="1046" entryy="911" entryz="7" rent="0" townid="1" size="53"/>
+  <house name="Depo House #6" houseid="19" entryx="1052" entryy="911" entryz="7" rent="0" townid="1" size="53"/>
+  <house name="Depo House #7" houseid="20" entryx="1037" entryy="894" entryz="7" rent="0" townid="1" size="23"/>
+  <house name="Depo House #8" houseid="21" entryx="1030" entryy="894" entryz="7" rent="0" townid="1" size="23"/>
+  <house name="Depo House #9" houseid="22" entryx="1043" entryy="893" entryz="7" rent="0" townid="1" size="141"/>
+  <house name="Prince Bel Air GuildHouse" houseid="23" entryx="1057" entryy="899" entryz="7" rent="0" guildhall="1" townid="1" size="474"/>
+  <house name="Mr Lonley House" houseid="24" entryx="1060" entryy="912" entryz="7" rent="0" townid="1" size="48"/>
+  <house name="Cleaner House" houseid="25" entryx="1070" entryy="913" entryz="7" rent="0" townid="1" size="25"/>
+  <house name="Depo House #10" houseid="26" entryx="1037" entryy="886" entryz="7" rent="0" townid="1" size="23"/>
+  <house name="Depo House #11" houseid="27" entryx="1030" entryy="886" entryz="7" rent="0" townid="1" size="23"/>
+  <house name="Tower House #1" houseid="28" entryx="995" entryy="876" entryz="7" rent="0" townid="1" size="28"/>
+  <house name="Tower House #2" houseid="29" entryx="1005" entryy="876" entryz="7" rent="0" townid="1" size="28"/>
+  <house name="Tower House #3" houseid="30" entryx="1012" entryy="876" entryz="7" rent="0" townid="1" size="28"/>
+  <house name="Tower House #4" houseid="31" entryx="1022" entryy="876" entryz="7" rent="0" townid="1" size="28"/>
+  <house name="Tower House #5" houseid="32" entryx="999" entryy="872" entryz="6" rent="0" townid="1" size="28"/>
+  <house name="Tower House #6" houseid="33" entryx="1001" entryy="872" entryz="6" rent="0" townid="1" size="28"/>
+  <house name="Tower House #7" houseid="34" entryx="1016" entryy="872" entryz="6" rent="0" townid="1" size="28"/>
+  <house name="Tower House #8" houseid="35" entryx="1018" entryy="872" entryz="6" rent="0" townid="1" size="28"/>
+  <house name="Tower House #9" houseid="36" entryx="999" entryy="872" entryz="5" rent="0" townid="1" size="28"/>
+  <house name="Tower House #10" houseid="37" entryx="1001" entryy="872" entryz="5" rent="0" townid="1" size="30"/>
+  <house name="Tower House #11" houseid="38" entryx="1016" entryy="872" entryz="5" rent="0" townid="1" size="30"/>
+  <house name="Tower House #12" houseid="39" entryx="1018" entryy="872" entryz="5" rent="0" townid="1" size="30"/>
+  <house name="Tower House #13" houseid="40" entryx="999" entryy="872" entryz="4" rent="0" townid="1" size="28"/>
+  <house name="Tower House #14" houseid="41" entryx="1001" entryy="872" entryz="4" rent="0" townid="1" size="28"/>
+  <house name="Tower House #15" houseid="42" entryx="1016" entryy="872" entryz="4" rent="0" townid="1" size="28"/>
+  <house name="Tower House #16" houseid="43" entryx="1018" entryy="872" entryz="4" rent="0" townid="1" size="28"/>
+  <house name="Big Boom #1" houseid="44" entryx="1014" entryy="854" entryz="7" rent="0" townid="1" size="156"/>
+  <house name="Big Boom #2" houseid="45" entryx="1019" entryy="854" entryz="7" rent="0" townid="1" size="156"/>
+  <house name="Big Boom #3" houseid="46" entryx="1024" entryy="854" entryz="7" rent="0" townid="1" size="156"/>
+  <house name="Tiny House #1" houseid="47" entryx="1028" entryy="873" entryz="7" rent="0" townid="1" size="24"/>
+  <house name="Tiny House #2" houseid="48" entryx="1028" entryy="869" entryz="7" rent="0" townid="1" size="24"/>
+  <house name="Tiny House #3" houseid="49" entryx="1028" entryy="865" entryz="7" rent="0" townid="1" size="24"/>
+  <house name="Tiny House #4" houseid="50" entryx="1028" entryy="861" entryz="7" rent="0" townid="1" size="24"/>
+  <house name="Tiny House #5" houseid="51" entryx="1028" entryy="858" entryz="7" rent="0" townid="1" size="24"/>
+  <house name="Guild House" houseid="52" entryx="973" entryy="920" entryz="7" rent="0" guildhall="1" townid="1" size="156"/>
+  <house name="Small Boom #1" houseid="53" entryx="1012" entryy="860" entryz="7" rent="0" townid="1" size="35"/>
+  <house name="Small Boom #2" houseid="54" entryx="1011" entryy="860" entryz="6" rent="0" townid="1" size="35"/>
+  <house name="House #1" houseid="55" entryx="1040" entryy="876" entryz="7" rent="0" townid="1" size="26"/>
+  <house name="House #2" houseid="56" entryx="1046" entryy="883" entryz="7" rent="0" townid="1" size="28"/>
+  <house name="House #3" houseid="57" entryx="1054" entryy="883" entryz="7" rent="0" townid="1" size="26"/>
+  <house name="House #4" houseid="58" entryx="1062" entryy="883" entryz="7" rent="0" townid="1" size="26"/>
+  <house name="House #5" houseid="59" entryx="1049" entryy="880" entryz="6" rent="0" townid="1" size="24"/>
+  <house name="Sea House #1" houseid="60" entryx="1000" entryy="934" entryz="7" rent="0" townid="1" size="38"/>
+  <house name="Sea House #2" houseid="61" entryx="991" entryy="934" entryz="7" rent="0" townid="1" size="38"/>
+  <house name="Sea House #3" houseid="62" entryx="982" entryy="934" entryz="7" rent="0" townid="1" size="38"/>
+  <house name="Brow House #1" houseid="63" entryx="965" entryy="891" entryz="7" rent="0" townid="1" size="22"/>
+  <house name="Brow House #2" houseid="64" entryx="965" entryy="898" entryz="7" rent="0" townid="1" size="22"/>
+  <house name="Brow House #3" houseid="65" entryx="965" entryy="905" entryz="7" rent="0" townid="1" size="22"/>
+  <house name="Brow House #4" houseid="66" entryx="965" entryy="911" entryz="7" rent="0" townid="1" size="22"/>
+  <house name="Big Browh House" houseid="67" entryx="961" entryy="885" entryz="7" rent="0" townid="1" size="117"/>
+  <house name="Small Browh House" houseid="68" entryx="979" entryy="883" entryz="7" rent="0" townid="1" size="76"/>
+  <house name="Brow House #5" houseid="69" entryx="976" entryy="909" entryz="7" rent="0" townid="1" size="20"/>
+  <house name="Brow House #6" houseid="70" entryx="976" entryy="904" entryz="6" rent="0" townid="1" size="22"/>
+  <house name="Brow House #7" houseid="71" entryx="976" entryy="904" entryz="7" rent="0" townid="1" size="22"/>
+  <house name="Brow House #8" houseid="72" entryx="976" entryy="899" entryz="7" rent="0" townid="1" size="22"/>
+  <house name="Brow House #9" houseid="73" entryx="976" entryy="890" entryz="7" rent="0" townid="1" size="69"/>
+  <house name="Temple House #1" houseid="74" entryx="992" entryy="898" entryz="7" rent="0" townid="1" size="83"/>
+  <house name="Temple House #2" houseid="75" entryx="992" entryy="907" entryz="7" rent="0" townid="1" size="79"/>
+  <house name="Temple House #3" houseid="76" entryx="987" entryy="915" entryz="7" rent="0" townid="1" size="16"/>
+  <house name="Temple House #4" houseid="77" entryx="987" entryy="921" entryz="7" rent="0" townid="1" size="18"/>
+  <house name="Temple House #5" houseid="78" entryx="987" entryy="925" entryz="7" rent="0" townid="1" size="26"/>
+  <house name="Temple House #6" houseid="79" entryx="990" entryy="926" entryz="7" rent="0" townid="1" size="19"/>
+  <house name="Temple House #8" houseid="80" entryx="1010" entryy="913" entryz="7" rent="0" townid="1" size="95"/>
+  <house name="Temple House #9" houseid="81" entryx="1012" entryy="907" entryz="7" rent="0" townid="1" size="95"/>
+  <house name="Temple House #10" houseid="82" entryx="1012" entryy="901" entryz="7" rent="0" townid="1" size="70"/>
+  <house name="Temple House #11" houseid="83" entryx="1013" entryy="891" entryz="7" rent="0" townid="1" size="32"/>
+  <house name="Temple House #12" houseid="84" entryx="1004" entryy="891" entryz="7" rent="0" townid="1" size="82"/>
+  <house name="Temple House #13" houseid="85" entryx="994" entryy="891" entryz="7" rent="0" townid="1" size="49"/>
+</houses>

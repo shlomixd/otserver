@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Zombie" nameDescription="a zombie" race="undead" experience="1200000000" speed="800" manacost="0">
+	<health now="9000000" max="9000000"/>
+	<look type="311" corpse="9875"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<script>
+		<event name="summonDeath"/>
+	</script>
+	<attacks>
+		<attack name="melee" interval="700" skill="700" attack="600"/>
+		<attack name="manadrain" interval="1000" chance="13" range="1" min="-0" max="-45"/>
+	</attacks>
+	<defenses armor="15" defense="10"/>
+	<elements>
+		<element firePercent="0"/>
+	</elements>
+	<voices interval="5000" chance="10">
+		<voice sentence="Mst.... klll...."/>
+		<voice sentence="Whrrrr... ssss.... mmm.... grrrrl"/>
+		<voice sentence="Dnnnt... cmmm... clsrrr...."/>
+		<voice sentence="Httt.... hmnnsss..."/>
+	</voices>
+	<loot>
+		<item id="2148" countmax="64" chance="24000"/><!-- gold coin -->
+		<item id="2227" chance="45000"/><!-- rotten meat -->
+		<item id="2050" chance="46250"/><!-- torch -->
+		<item id="2460" chance="8700"/><!-- brass helmet -->
+		<item id="2457" chance="8700"/><!-- steel helmet -->
+		<item id="2398" chance="7250"/><!-- mace -->
+	</loot>
+</monster>

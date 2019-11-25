@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Farmer" nameDescription="a farmer" race="blood" experience="60" speed="215" manacost="420">
+	<health now="160" max="160"/>
+	<look type="146" head="114" body="20" legs="22" feet="2" corpse="6080"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="0" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="0"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="0"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="0"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="18"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="0" attack="0"/>
+	</attacks>
+	<defenses armor="0" defense="0"/>
+	<elements>
+		<element firePercent="0"/>
+		<element holyPercent="0"/>
+		<element physicalPercent="0"/>
+		<element icePercent="0"/>
+		<element deathPercent="0"/>
+	</elements>
+	<voices interval="5000" chance="10">
+		<voice sentence="Welcome to my farm!"/>
+		<voice sentence="Im the farmer of this farm!"/>
+	</voices>
+	<loot>
+		<item id="2148" countmax="51" chance="16250"/><!-- gold coin -->
+	</loot>
+</monster>

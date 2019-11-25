@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Exodius" nameDescription="a Exodius" race="venom" experience="1000000000" speed="380" manacost="0">
+	<health now="90000000" max="90000000"/>
+	<look type="12" head="2" body="35" legs="57" feet="91" corpse="6068"/>
+	<targetchange interval="5000" chance="20"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="85"/>
+		<flag runonhealth="1000"/>
+	</flags>
+	<script>
+		<event name="summonDeath"/>
+	</script>
+        <attacks>
+		<attack name="melee" interval="500" skill="100000" min="-100000" max="-120000"/>
+	        <attack name="earth" interval="9000" chance="500" target="1" min="-1000" max="-1000">
+		<attribute key="areaEffect" value="stones"/>
+	</attack>
+	</attacks>
+	<defenses armor="30" defense="35">
+		<defense name="speed" interval="1000" chance="40" speedchange="400" duration="8000">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</defense>
+	</defenses>
+	<immunities>
+		<immunity energy="0"/>
+		<immunity fire="0"/>
+		<immunity ice="0"/>
+		<immunity lifedrain="1"/>
+		<immunity paralyze="1"/>
+		<immunity outfit="1"/>
+		<immunity drunk="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="Kneel for me!"/>
+		<voice sentence="This is the end!"/>
+		<voice sentence="You are doomed!"/>
+	</voices>
+	<loot>
+		<item id="2157" countmax="10" chance="9000"/>	<!-- gold ingot -->
+	</loot>
+</monster>
